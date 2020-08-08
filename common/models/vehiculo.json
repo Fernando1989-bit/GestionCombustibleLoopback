@@ -1,0 +1,25 @@
+{
+  "name": "vehiculo",
+  "plural": "vehiculos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "modelo": {
+      "type": "string"
+    },
+    "placa": {
+      "type": "string"
+    },
+    "usuario": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

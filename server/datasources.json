@@ -1,0 +1,18 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  
+  "narez_bd_web": {
+    "host": "sql9.freemysqlhosting.net",
+    "port": 3306,
+    "url": "mysq://sql9359068:tesFpH7FSJ@sql9.freemysqlhosting.net/sql9359068",
+    "database": "sql9359068",
+    "password": "tesFpH7FSJ",
+    "name": "narez_bd_web",
+    "user": "sql9359068",
+    "connector": "mysql"
+  }
+  
+}

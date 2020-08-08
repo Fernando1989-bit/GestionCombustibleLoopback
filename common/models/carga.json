@@ -1,0 +1,27 @@
+{
+  "name": "carga",
+  "plural": "cargas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fecha": {
+      "type": "date"
+    },
+    "total": {
+      "type": "number"
+    },
+    "idCombustible": {
+      "type": "number"
+    },
+    "idVehiculo": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
